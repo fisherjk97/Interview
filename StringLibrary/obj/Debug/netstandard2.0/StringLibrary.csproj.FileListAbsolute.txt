@@ -1,0 +1,9 @@
+D:\InterviewPractice\StringLibrary\bin\Debug\netstandard2.0\StringLibrary.deps.json
+D:\InterviewPractice\StringLibrary\bin\Debug\netstandard2.0\StringLibrary.dll
+D:\InterviewPractice\StringLibrary\bin\Debug\netstandard2.0\StringLibrary.pdb
+D:\InterviewPractice\StringLibrary\obj\Debug\netstandard2.0\StringLibrary.csprojAssemblyReference.cache
+D:\InterviewPractice\StringLibrary\obj\Debug\netstandard2.0\StringLibrary.csproj.CoreCompileInputs.cache
+D:\InterviewPractice\StringLibrary\obj\Debug\netstandard2.0\StringLibrary.AssemblyInfoInputs.cache
+D:\InterviewPractice\StringLibrary\obj\Debug\netstandard2.0\StringLibrary.AssemblyInfo.cs
+D:\InterviewPractice\StringLibrary\obj\Debug\netstandard2.0\StringLibrary.dll
+D:\InterviewPractice\StringLibrary\obj\Debug\netstandard2.0\StringLibrary.pdb

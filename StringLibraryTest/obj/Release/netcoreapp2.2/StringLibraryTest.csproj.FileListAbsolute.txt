@@ -1,0 +1,17 @@
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\StringLibraryTest.deps.json
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\StringLibraryTest.runtimeconfig.json
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\StringLibraryTest.runtimeconfig.dev.json
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\StringLibraryTest.dll
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\StringLibraryTest.pdb
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\StringLibrary.dll
+D:\InterviewPractice\StringLibraryTest\bin\Release\netcoreapp2.2\StringLibrary.pdb
+D:\InterviewPractice\StringLibraryTest\obj\Release\netcoreapp2.2\StringLibraryTest.csprojAssemblyReference.cache
+D:\InterviewPractice\StringLibraryTest\obj\Release\netcoreapp2.2\StringLibraryTest.csproj.CoreCompileInputs.cache
+D:\InterviewPractice\StringLibraryTest\obj\Release\netcoreapp2.2\StringLibraryTest.AssemblyInfoInputs.cache
+D:\InterviewPractice\StringLibraryTest\obj\Release\netcoreapp2.2\StringLibraryTest.AssemblyInfo.cs
+D:\InterviewPractice\StringLibraryTest\obj\Release\netcoreapp2.2\StringLibraryTest.csproj.CopyComplete
+D:\InterviewPractice\StringLibraryTest\obj\Release\netcoreapp2.2\StringLibraryTest.dll
+D:\InterviewPractice\StringLibraryTest\obj\Release\netcoreapp2.2\StringLibraryTest.pdb

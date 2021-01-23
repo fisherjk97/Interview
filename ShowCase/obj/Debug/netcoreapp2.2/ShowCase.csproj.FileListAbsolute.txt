@@ -1,0 +1,14 @@
+D:\InterviewPractice\ShowCase\bin\Debug\netcoreapp2.2\ShowCase.deps.json
+D:\InterviewPractice\ShowCase\bin\Debug\netcoreapp2.2\ShowCase.runtimeconfig.json
+D:\InterviewPractice\ShowCase\bin\Debug\netcoreapp2.2\ShowCase.runtimeconfig.dev.json
+D:\InterviewPractice\ShowCase\bin\Debug\netcoreapp2.2\ShowCase.dll
+D:\InterviewPractice\ShowCase\bin\Debug\netcoreapp2.2\ShowCase.pdb
+D:\InterviewPractice\ShowCase\bin\Debug\netcoreapp2.2\StringLibrary.dll
+D:\InterviewPractice\ShowCase\bin\Debug\netcoreapp2.2\StringLibrary.pdb
+D:\InterviewPractice\ShowCase\obj\Debug\netcoreapp2.2\ShowCase.csprojAssemblyReference.cache
+D:\InterviewPractice\ShowCase\obj\Debug\netcoreapp2.2\ShowCase.csproj.CoreCompileInputs.cache
+D:\InterviewPractice\ShowCase\obj\Debug\netcoreapp2.2\ShowCase.AssemblyInfoInputs.cache
+D:\InterviewPractice\ShowCase\obj\Debug\netcoreapp2.2\ShowCase.AssemblyInfo.cs
+D:\InterviewPractice\ShowCase\obj\Debug\netcoreapp2.2\ShowCase.csproj.CopyComplete
+D:\InterviewPractice\ShowCase\obj\Debug\netcoreapp2.2\ShowCase.dll
+D:\InterviewPractice\ShowCase\obj\Debug\netcoreapp2.2\ShowCase.pdb
