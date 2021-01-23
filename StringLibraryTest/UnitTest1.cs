@@ -139,5 +139,52 @@ namespace StringLibraryTest
         }
 
 
+        [TestMethod]
+        public void CompressableString()
+        {
+            //arrange
+            string a = "aabbcccddddeeeeee";
+            string expected = "a2b2c3d4e6";
+            //act
+            string actual = a.Compress();
+                
+            //assert
+            Assert.AreEqual(actual, expected);
+            
+        }
+
+        [TestMethod]
+        public void CanCompress()
+        {
+            //arrange
+            string a = "aabbcccddddeeeeee";
+            //act
+            string compressed = a.Compress();
+                
+            bool canOriginalBeCompressed = (a.Length >= compressed.Length);
+
+
+            //assert
+            Assert.IsTrue(canOriginalBeCompressed);
+            
+        }
+
+        [TestMethod]
+        public void CannotCompress()
+        {
+            //arrange
+            string a = "abcde";
+            //act
+            string compressed = a.Compress();
+                
+            bool canOriginalBeCompressed = (a.Length < compressed.Length);
+
+
+            //assert
+            Assert.IsFalse(canOriginalBeCompressed);
+            
+        }
+
+
     }
 }

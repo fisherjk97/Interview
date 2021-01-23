@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace UtilityLibraries
 {
@@ -167,6 +168,83 @@ namespace UtilityLibraries
         private static bool OneEditDelete(string a, string b){
             return OneEditInsert(b, a);
         }
+
+
+
+        /// <summary>
+        /// Implement a method to perform basic string compression using the counts of repeated chars
+        /// example: aabcccccaaa = a2b1c5a3
+        /// If the compressed string does not become smaller than the original, return the original. 
+        /// assume only uppercase and lowercase letters
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        public static string CompressBad(this string str){
+
+            string compressed = "";
+            int countConsecutive = 0;
+            for(int i = 0; i < str.Length; i++){
+                countConsecutive++;
+
+                //if the next character is different from the current, append this char to the result
+                if(i + 1 >= str.Length || str[i] != str[i+1]){
+                    compressed += "" + str[i] + countConsecutive;
+                    countConsecutive = 0;
+                }
+
+            }
+
+            return compressed.Length < str.Length? compressed: str;
+
+        }
+
+
+        //Better version of the CompressBad. Uses StringBuilder
+        public static string Compress(this string str){
+
+            //check final length and return input string if it would be longer
+            int finalLength = CountCompression(str);
+            if(finalLength >= str.Length){
+                return str;
+            }
+
+
+            StringBuilder compressed = new StringBuilder();
+            int countConsecutive = 0;
+            for(int i = 0; i < str.Length; i++){
+                countConsecutive++;
+
+                //if the next character is different from the current, append this char to the result
+                if(i + 1 >= str.Length || str[i] != str[i+1]){
+                    compressed.Append(str[i]);
+                    compressed.Append(countConsecutive);
+                    countConsecutive = 0;
+                }
+
+            }
+
+            return compressed.Length < str.Length? compressed.ToString(): str;
+
+        }
+
+        private static int CountCompression(string str){
+            int compressedLength = 0;
+            int countConsecutive = 0;
+            for(int i = 0; i < str.Length; i++){
+                countConsecutive++;
+
+                //if the next char is different than current, increase the length
+
+                if(i + 1 >= str.Length || str[i] != str[i+1]){
+                    compressedLength +=1 + countConsecutive.ToString().Length;
+                    countConsecutive = 0;
+                }
+            }
+            return compressedLength;
+        }
+
+
+        
 
     
 
