@@ -106,6 +106,38 @@ namespace StringLibraryTest
             
         }
 
+        [TestMethod]
+        public void AreOneEditAway()
+        {
+            //arrange
+            string[] wordsA = { "pale", "pales",  "pale", "pale", };
+            string[] wordsB = { "ple", "pale",  "bale", "sale", };
+
+            //act
+            for(int i = 0; i < wordsA.Length && wordsA.Length == wordsB.Length; i++){
+                bool result = wordsA[i].OneEditAway(wordsB[i]);
+                
+            //assert
+                Assert.IsTrue(result, String.Format("Expected for '{0}' and '{1}': true; Actual: {2}", wordsA[i], wordsB[i], result));
+            }
+        }
+
+        [TestMethod]
+        public void AreNotOneEditAway()
+        {
+            //arrange
+            string[] wordsA = { "palea", "pales",  "jale", "pe", };
+            string[] wordsB = { "ple", "pa",  "bjlae", "sale", };
+
+            //act
+            for(int i = 0; i < wordsA.Length && wordsA.Length == wordsB.Length; i++){
+                bool result = wordsA[i].OneEditAway(wordsB[i]);
+                
+            //assert
+                Assert.IsFalse(result, String.Format("Expected for '{0}' and '{1}': false; Actual: {2}", wordsA[i], wordsB[i], result));
+            }
+        }
+
 
     }
 }
