@@ -66,13 +66,46 @@ namespace StringLibraryTest
         [TestMethod]
         public void AllCharsNotUnique()
         {
+            //arrange
             string word = "aabbccdeeeffghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=[]|/";
-             //act
+            
+            //act
             bool result = word.AreAllCharsUnique();
                 
             //assert
             Assert.IsFalse(result, String.Format("Expected for '{0}': false; Actual: {1}",word, result));
             
         }
+
+        [TestMethod]
+        public void AreStringsPermutations()
+        {
+            //arrange
+            string a = "racecar";
+            string b = "acercar";
+            //act
+            bool result = a.IsPermutation(b);
+                
+            //assert
+            Assert.IsTrue(result, String.Format("Expected for '{0}' and {1}: false; Actual: {2}", a,b, result));
+            
+        }
+
+        
+        [TestMethod]
+        public void AreStringsNotPermutations()
+        {
+            //arrange
+            string a = "racecar";
+            string b = "car";
+            //act
+            bool result = a.IsPermutation(b);
+                
+            //assert
+            Assert.IsFalse(result, String.Format("Expected for '{0}' and {1}: false; Actual: {2}", a,b, result));
+            
+        }
+
+
     }
 }

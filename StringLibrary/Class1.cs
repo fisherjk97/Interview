@@ -40,6 +40,66 @@ namespace UtilityLibraries
             return true;
 
         }
+
+        private static string Sort(string s){
+            char[] content = s.ToCharArray();
+            Array.Sort(content);
+            return new String(content);
+        }
+
+        /// <summary>
+        /// Given two strings, write a method to decide if one is a permutation of the other
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static bool IsPermutation(this string a, string b){
+
+            //questions to ask: is the permutation case sensitive, is whitespace significant
+
+            //observations: strings of different lengths cannot be permutations of the other
+
+
+            //option 1: Sort the strings
+
+            /*
+            if(a.Length != b.Length){
+                return false;
+            }else{
+                return Sort(a).Equals(Sort(b));
+            }
+            */
+
+            //option 2 check if two strings have identical character counts
+
+            //using the definition of permutation, two words with the same character count. 
+
+            //iterate through code, counting how many times each char appears
+
+            if(a.Length != b.Length){
+                return false;
+            }
+
+            int[] letters = new int[128];//assumption
+
+
+            char[] a_array = a.ToCharArray();
+            foreach(char c in a_array){//count the number of each char in s
+                letters[c]++;
+            }
+
+            for(int i = 0; i < b.Length; i++){
+                int c = (int) b[i];//charAt
+                letters[c]--;//subtract the frequency
+                if(letters[c] < 0){//we encountered a character in b that doesn't exist in a already
+                    return false;
+                }
+            }
+
+            return true;
+
+
+        }
     
     }
 
