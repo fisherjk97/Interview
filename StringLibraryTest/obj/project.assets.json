@@ -5850,11 +5850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\InterviewPractice\\StringLibraryTest\\StringLibraryTest.csproj",
+      "projectUniqueName": "d:\\InterviewPractice\\StringLibraryTest\\StringLibraryTest.csproj",
       "projectName": "StringLibraryTest",
-      "projectPath": "D:\\InterviewPractice\\StringLibraryTest\\StringLibraryTest.csproj",
+      "projectPath": "d:\\InterviewPractice\\StringLibraryTest\\StringLibraryTest.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "D:\\InterviewPractice\\StringLibraryTest\\obj\\",
+      "outputPath": "d:\\InterviewPractice\\StringLibraryTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5871,8 +5871,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj": {
-              "projectPath": "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj"
+            "d:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj": {
+              "projectPath": "d:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj"
             }
           }
         }

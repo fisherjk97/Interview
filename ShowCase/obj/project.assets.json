@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\InterviewPractice\\ShowCase\\ShowCase.csproj",
+      "projectUniqueName": "d:\\InterviewPractice\\ShowCase\\ShowCase.csproj",
       "projectName": "ShowCase",
-      "projectPath": "D:\\InterviewPractice\\ShowCase\\ShowCase.csproj",
+      "projectPath": "d:\\InterviewPractice\\ShowCase\\ShowCase.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "D:\\InterviewPractice\\ShowCase\\obj\\",
+      "outputPath": "d:\\InterviewPractice\\ShowCase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -729,8 +729,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj": {
-              "projectPath": "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj"
+            "d:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj": {
+              "projectPath": "d:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj"
             }
           }
         }
