@@ -1620,14 +1620,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "StringLibrary/1.0.0": {
+      "LinkedListLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/StringLibrary.dll": {}
+          "bin/placeholder/LinkedListLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/StringLibrary.dll": {}
+          "bin/placeholder/LinkedListLibrary.dll": {}
         }
       }
     }
@@ -5828,19 +5828,19 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "StringLibrary/1.0.0": {
+    "LinkedListLibrary/1.0.0": {
       "type": "project",
-      "path": "../StringLibrary/StringLibrary.csproj",
-      "msbuildProject": "../StringLibrary/StringLibrary.csproj"
+      "path": "../LinkedListLibrary/LinkedListLibrary.csproj",
+      "msbuildProject": "../LinkedListLibrary/LinkedListLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "LinkedListLibrary >= 1.0.0",
       "MSTest.TestAdapter >= 1.4.0",
       "MSTest.TestFramework >= 1.4.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
-      "Microsoft.NETCore.App >= 2.2.0",
-      "StringLibrary >= 1.0.0"
+      "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -5850,11 +5850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\InterviewPractice\\StringLibraryTest\\StringLibraryTest.csproj",
-      "projectName": "StringLibraryTest",
-      "projectPath": "D:\\InterviewPractice\\StringLibraryTest\\StringLibraryTest.csproj",
+      "projectUniqueName": "D:\\InterviewPractice\\LinkedListLibraryTest\\LinkedListLibraryTest.csproj",
+      "projectName": "LinkedListLibraryTest",
+      "projectPath": "D:\\InterviewPractice\\LinkedListLibraryTest\\LinkedListLibraryTest.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "D:\\InterviewPractice\\StringLibraryTest\\obj\\",
+      "outputPath": "D:\\InterviewPractice\\LinkedListLibraryTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5871,8 +5871,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj": {
-              "projectPath": "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj"
+            "D:\\InterviewPractice\\LinkedListLibrary\\LinkedListLibrary.csproj": {
+              "projectPath": "D:\\InterviewPractice\\LinkedListLibrary\\LinkedListLibrary.csproj"
             }
           }
         }

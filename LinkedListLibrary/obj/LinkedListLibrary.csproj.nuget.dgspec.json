@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj": {}
+    "D:\\InterviewPractice\\LinkedListLibrary\\LinkedListLibrary.csproj": {}
   },
   "projects": {
-    "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj": {
+    "D:\\InterviewPractice\\LinkedListLibrary\\LinkedListLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj",
-        "projectName": "StringLibrary",
-        "projectPath": "D:\\InterviewPractice\\StringLibrary\\StringLibrary.csproj",
+        "projectUniqueName": "D:\\InterviewPractice\\LinkedListLibrary\\LinkedListLibrary.csproj",
+        "projectName": "LinkedListLibrary",
+        "projectPath": "D:\\InterviewPractice\\LinkedListLibrary\\LinkedListLibrary.csproj",
         "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "D:\\InterviewPractice\\StringLibrary\\obj\\",
+        "outputPath": "D:\\InterviewPractice\\LinkedListLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

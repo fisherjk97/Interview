@@ -1,0 +1,17 @@
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\LinkedListLibraryTest.deps.json
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\LinkedListLibraryTest.runtimeconfig.json
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\LinkedListLibraryTest.runtimeconfig.dev.json
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\LinkedListLibraryTest.dll
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\LinkedListLibraryTest.pdb
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\LinkedListLibrary.dll
+D:\InterviewPractice\LinkedListLibraryTest\bin\Debug\netcoreapp2.2\LinkedListLibrary.pdb
+D:\InterviewPractice\LinkedListLibraryTest\obj\Debug\netcoreapp2.2\LinkedListLibraryTest.csprojAssemblyReference.cache
+D:\InterviewPractice\LinkedListLibraryTest\obj\Debug\netcoreapp2.2\LinkedListLibraryTest.csproj.CoreCompileInputs.cache
+D:\InterviewPractice\LinkedListLibraryTest\obj\Debug\netcoreapp2.2\LinkedListLibraryTest.AssemblyInfoInputs.cache
+D:\InterviewPractice\LinkedListLibraryTest\obj\Debug\netcoreapp2.2\LinkedListLibraryTest.AssemblyInfo.cs
+D:\InterviewPractice\LinkedListLibraryTest\obj\Debug\netcoreapp2.2\LinkedListLibraryTest.csproj.CopyComplete
+D:\InterviewPractice\LinkedListLibraryTest\obj\Debug\netcoreapp2.2\LinkedListLibraryTest.dll
+D:\InterviewPractice\LinkedListLibraryTest\obj\Debug\netcoreapp2.2\LinkedListLibraryTest.pdb

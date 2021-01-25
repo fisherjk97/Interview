@@ -1,0 +1,9 @@
+D:\InterviewPractice\LinkedListLibrary\bin\Debug\netstandard2.0\LinkedListLibrary.deps.json
+D:\InterviewPractice\LinkedListLibrary\bin\Debug\netstandard2.0\LinkedListLibrary.dll
+D:\InterviewPractice\LinkedListLibrary\bin\Debug\netstandard2.0\LinkedListLibrary.pdb
+D:\InterviewPractice\LinkedListLibrary\obj\Debug\netstandard2.0\LinkedListLibrary.csprojAssemblyReference.cache
+D:\InterviewPractice\LinkedListLibrary\obj\Debug\netstandard2.0\LinkedListLibrary.csproj.CoreCompileInputs.cache
+D:\InterviewPractice\LinkedListLibrary\obj\Debug\netstandard2.0\LinkedListLibrary.AssemblyInfoInputs.cache
+D:\InterviewPractice\LinkedListLibrary\obj\Debug\netstandard2.0\LinkedListLibrary.AssemblyInfo.cs
+D:\InterviewPractice\LinkedListLibrary\obj\Debug\netstandard2.0\LinkedListLibrary.dll
+D:\InterviewPractice\LinkedListLibrary\obj\Debug\netstandard2.0\LinkedListLibrary.pdb
